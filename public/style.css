@@ -24,6 +24,21 @@ body {
   box-shadow: 5px 5px 50px #00000005, -5px -5px 50px #00000027;
 }
 
+.icon{
+  position: absolute;
+  background-image: url(../assets/icon/ico.png);
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  right: 5px;
+  top: 10px;
+}
+
+.intro-heading{
+  margin-top: 50px;
+}
 .show-hide-search {
   position: absolute;
   width: 30px;
@@ -69,7 +84,7 @@ select {
 }
 .city-image {
   position: absolute;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg/800px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg");
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg/2560px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg");
   height: 250px;
   width: 250px;
   border-radius: 50%;
@@ -77,6 +92,7 @@ select {
   background-position: center;
   background-repeat: no-repeat;
   left: 20px;
+  box-shadow: inset 1px 1px 5px #000000, inset -1px -1px 5px #000000;
 }
 
 .city-summary-container {
@@ -201,6 +217,23 @@ select {
     overflow: hidden;
   }
 
+  .icon{
+    display: none;
+    position: absolute;
+    background-image: url(../assets/icon/ico.png);
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 30px;
+    top: 30px;
+  }
+
+  .hide {
+    display:inherit;
+  }
+
   select {
     width: 90%;
     margin: 40px 10px 10px 10px;
@@ -214,12 +247,12 @@ select {
     text-align: center;
   }
 
-  .hide {
-    /* display: none; */
-  }
+  /* .hide {
+    display: none;
+  } */
 
   .intro {
-    margin: 50px 0px 0px 80px;
+    margin: 0px 0px 0px 80px;
   }
 
   .city-image-container {
@@ -228,18 +261,19 @@ select {
     margin-top: 0px;
     /* background-color: red; */
   }
-  
+
   .city-image {
     position: absolute;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg/800px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg");
-    height: 550px;
-    width: 550px;
-    border-radius: 50%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg/2560px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg");
+    height: 480px;
+    width: 480px;
+    border-radius: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    left: 0px;
+    left: -40px;
     top: -100px;
+    box-shadow: inset 1px 1px 10px #000000, inset -1px -1px 10px #000000;
   }
 
   .main-container {
@@ -254,6 +288,10 @@ select {
 
   .city-info {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 50px 0;
   }
 
   .city-summary-container {
@@ -264,22 +302,18 @@ select {
     box-shadow: none;
     /* box-shadow: 5px 5px 10px #afb2b4, -5px -5px 10px #ffffff; */
     text-align: left;
-    width: 100%;
+    width: 90%;
   }
 
   .city-name {
-    margin-top: 0px;
-    margin-left: 70px;
+    margin: 0 0 0 25px;
     text-align: left;
     font-size: 20px;
     font-weight: 600;
   }
 
   .city-description {
-    margin-top: 10px;
-    margin-left: 70px;
-    /* width: 200px; */
-    padding-right: 350px;
+    margin: 10px 0 0 25px;
   }
 
   /* Score ================== ==================  */
@@ -290,16 +324,16 @@ select {
   /* Score ================== ==================  */
   /* Score ================== ==================  */
 
-  .section-title{
+  .section-title {
     margin-top: 40px;
+    display: none;
   }
   .city-scores-container {
     width: 90%;
-    display: grid;
+    display: none;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     justify-content: center;
-    
   }
 
   /* .city-scores-container:hover {
@@ -319,20 +353,8 @@ select {
     margin: 10px;
   }
 
- 
-
   .expand {
     height: auto;
     overflow: visible;
   }
-
- 
-
- 
-
- 
-
-  
-
-
 }
