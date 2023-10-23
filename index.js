@@ -55,7 +55,7 @@ async function populateCitiesMenuAndScores() {
 
   citiesMenu.addEventListener("change", async (e) => {
     const select = document.querySelector("select");
-    select.classList.toggle("hide");
+    // select.classList.toggle("hide");
     const selectedCityUrl = e.target.value;
     const selectedCity = citiesMenu.options[citiesMenu.selectedIndex];
     const scoreUrl = `${selectedCityUrl}scores/`;

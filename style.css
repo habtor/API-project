@@ -175,3 +175,164 @@ select {
   border-top: 1px dashed;
   padding-top: 10px;
 }
+
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+
+@media only screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+  .container {
+    max-width: 1000px;
+    overflow: hidden;
+  }
+
+  select {
+    width: 90%;
+    margin: 40px 10px 10px 10px;
+    height: 40px;
+    border-radius: 3px;
+    background: #ecf0f3;
+    box-shadow: 3px 3px 3px #c7c7c7, -3px -3px 3px #ffffff;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+  }
+
+  .hide {
+    /* display: none; */
+  }
+
+  .intro {
+    margin: 50px 0px 0px 80px;
+  }
+
+  .city-image-container {
+    position: relative;
+    width: 50%;
+    margin-top: 0px;
+    /* background-color: red; */
+  }
+  
+  .city-image {
+    position: absolute;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg/800px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg");
+    height: 550px;
+    width: 550px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 0px;
+    top: -100px;
+  }
+
+  .main-container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    width: 100%;
+    /* background-color: green; */
+    height: 350px;
+  }
+
+  .city-info {
+    width: 100%;
+  }
+
+  .city-summary-container {
+    margin-top: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #ecf0f3;
+    box-shadow: none;
+    /* box-shadow: 5px 5px 10px #afb2b4, -5px -5px 10px #ffffff; */
+    text-align: left;
+    width: 100%;
+  }
+
+  .city-name {
+    margin-top: 0px;
+    margin-left: 70px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .city-description {
+    margin-top: 10px;
+    margin-left: 70px;
+    /* width: 200px; */
+    padding-right: 350px;
+  }
+
+  /* Score ================== ==================  */
+  /* Score ================== ==================  */
+  /* Score ================== ==================  */
+  /* Score ================== ==================  */
+  /* Score ================== ==================  */
+  /* Score ================== ==================  */
+  /* Score ================== ==================  */
+
+  .section-title{
+    margin-top: 40px;
+  }
+  .city-scores-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    
+  }
+
+  /* .city-scores-container:hover {
+    background: rgb(229, 229, 229);
+  } */
+
+  .score-overview {
+    padding: 10px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    height: 80px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #e9ebed;
+    box-shadow: 5px 5px 10px #afb2b4, -5px -5px 10px #ffffff;
+    margin: 10px;
+  }
+
+ 
+
+  .expand {
+    height: auto;
+    overflow: visible;
+  }
+
+ 
+
+ 
+
+ 
+
+  
+
+
+}

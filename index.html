@@ -9,20 +9,52 @@
   </head>
   <body>
     <div class="container">
-      <div class="show-hide-search" onclick="toggleMenu()">
+      <div class="show-hide-search mobile" onclick="toggleMenu()">
         <div class="hamburger first"></div>
         <div class="hamburger second"></div>
         <div class="hamburger third"></div>
       </div>
 
-      <select class="search-city"></select>
-      <div class="city-image-container">
+      <div class="main-container">
+        <div class="intro">
+          <p>Places to live</p>
+          <h1>
+            KNOW YOUR FUTURE<br />
+            HOME
+          </h1>
+          <p>
+            This appliction privide information about <br />
+            cities from around the world, it get the data <br />
+            from <a href="https://developers.teleport.org/">"Teleport"</a> API
+          </p>
+          <select class="search-city"></select>
+        </div>
+        <div class="city-image-container">
+          <div class="city-image"></div>
+        </div>
+      </div>
+      <div class="city-info">
+        <div class="city-summary-container">
+          <p class="city-name">City Name</p>
+          <p class="city-description">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
+            provident voluptates architecto dolores aperiam tenetur vitae
+            cupiditate debitis totam officiis, minima rem repudiandae incidunt
+            ab magnam dolorum similique tempora ex? Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Harum provident 
+            ex
+          </p>
+        </div>
+      </div>
+
+      <!-- <select class="search-city mobile"></select>
+      <div class="city-image-container mobile">
         <div class="city-image"></div>
       </div>
 
-      <div class="city-summary-container">
-        <p class="city-name">City Name</p>
-        <p class="city-description">
+      <div class="city-summary-container mobile">
+        <p class="city-name mobile">City Name</p>
+        <p class="city-description mobile">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
           provident voluptates architecto dolores aperiam tenetur vitae
           cupiditate debitis totam officiis, minima rem repudiandae incidunt ab
@@ -31,11 +63,12 @@
           dolores aperiam tenetur vitae cupiditate debitis totam officiis,
           minima rem repudiandae incidunt ab magnam dolorum similique tempora ex
         </p>
-      </div>
+      </div> -->
 
       <!-- ------ Score -------------->
-
+      <h1 class="section-title">Scores</h1>
       <div class="city-scores-container">
+       
         <!-- socre elements -->
         <div class="score-overview">
           <div class="main-score-data">
