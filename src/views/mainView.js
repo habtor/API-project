@@ -1,10 +1,7 @@
-/**
- * Create the welcome screen
- * @returns {Element}
- */
 export const createMainElement = () => {
-  const element = document.createElement('div');
+  const element = document.createElement("div");
   element.innerHTML = String.raw`
+      <div class="error-message"></div>
       <div class="show-hide-search mobile">
         <div class="hamburger first"></div>
         <div class="hamburger second"></div>
@@ -14,11 +11,18 @@ export const createMainElement = () => {
       <div class="icon">
         
       </div>
+
+      <div class="ribbon"></div>
+      <div class="ribbon2"></div>
+      <div class="ribbon3"></div>
+      <div class="ribbon4"></div>
+      <div class="ribbon5"></div>
+      
       
 
       <div class="main-container">
         <div class="intro">
-          <p class="intro-heading">Places to live</p>
+          <p class="intro-heading">PLACES TO LIVE</p>
           <h1>
             KNOW YOUR FUTURE<br />
             HOME
@@ -26,7 +30,7 @@ export const createMainElement = () => {
           <p>
             This appliction privide information about <br />
             cities from around the world, it get the <br />data 
-            from <a href="https://developers.teleport.org/">"Teleport"</a> API
+            from <a href="https://developers.teleport.org/"><i>"Teleport"</a></i> API
           </p>
           <select class="search-city"></select>
         </div>
@@ -52,7 +56,6 @@ export const createMainElement = () => {
           <div class="main-score-data">
             <div class="category-heading">
               <p class="category-name">Environmental Quality</p>
-              <span>@</span>
             </div>
             <div class="category-overview">
               <div class="bar">
@@ -67,7 +70,6 @@ export const createMainElement = () => {
           <div class="main-score-data">
             <div class="category-heading">
               <p class="category-name">Environmental Quality</p>
-              <span>@</span>
             </div>
             <div class="category-overview">
               <div class="bar">
@@ -82,7 +84,6 @@ export const createMainElement = () => {
           <div class="main-score-data">
             <div class="category-heading">
               <p class="category-name">Environmental Quality</p>
-              <span>@</span>
             </div>
             <div class="category-overview">
               <div class="bar">
@@ -97,7 +98,6 @@ export const createMainElement = () => {
           <div class="main-score-data">
             <div class="category-heading">
               <p class="category-name">Environmental Quality</p>
-              <span>@</span>
             </div>
             <div class="category-overview">
               <div class="bar">
@@ -112,7 +112,6 @@ export const createMainElement = () => {
           <div class="main-score-data">
             <div class="category-heading">
               <p class="category-name">Environmental Quality</p>
-              <span>@</span>
             </div>
             <div class="category-overview">
               <div class="bar">
@@ -127,7 +126,6 @@ export const createMainElement = () => {
           <div class="main-score-data">
             <div class="category-heading">
               <p class="category-name">Environmental Quality</p>
-              <span>@</span>
             </div>
             <div class="category-overview">
               <div class="bar">
@@ -142,7 +140,6 @@ export const createMainElement = () => {
           <div class="main-score-data">
             <div class="category-heading">
               <p class="category-name">Environmental Quality</p>
-              <span>@</span>
             </div>
             <div class="category-overview">
               <div class="bar">
@@ -157,7 +154,6 @@ export const createMainElement = () => {
           <div class="main-score-data">
             <div class="category-heading">
               <p class="category-name">Environmental Quality</p>
-              <span>@</span>
             </div>
             <div class="category-overview">
               <div class="bar">
@@ -172,7 +168,6 @@ export const createMainElement = () => {
           <div class="main-score-data">
             <div class="category-heading">
               <p class="category-name">Environmental Quality</p>
-              <span>@</span>
             </div>
             <div class="category-overview">
               <div class="bar">
@@ -187,7 +182,6 @@ export const createMainElement = () => {
           <div class="main-score-data">
             <div class="category-heading">
               <p class="category-name">Environmental Quality</p>
-              <span>@</span>
             </div>
             <div class="category-overview">
               <div class="bar">
@@ -202,7 +196,6 @@ export const createMainElement = () => {
           <div class="main-score-data">
             <div class="category-heading">
               <p class="category-name">Environmental Quality</p>
-              <span>@</span>
             </div>
             <div class="category-overview">
               <div class="bar">
@@ -217,7 +210,6 @@ export const createMainElement = () => {
           <div class="main-score-data">
             <div class="category-heading">
               <p class="category-name">Environmental Quality</p>
-              <span>@</span>
             </div>
             <div class="category-overview">
               <div class="bar">
@@ -232,7 +224,6 @@ export const createMainElement = () => {
           <div class="main-score-data">
             <div class="category-heading">
               <p class="category-name">Environmental Quality</p>
-              <span>@</span>
             </div>
             <div class="category-overview">
               <div class="bar">
@@ -247,7 +238,6 @@ export const createMainElement = () => {
           <div class="main-score-data">
             <div class="category-heading">
               <p class="category-name">Environmental Quality</p>
-              <span>@</span>
             </div>
             <div class="category-overview">
               <div class="bar">
@@ -262,7 +252,6 @@ export const createMainElement = () => {
           <div class="main-score-data">
             <div class="category-heading">
               <p class="category-name">Environmental Quality</p>
-              <span>@</span>
             </div>
             <div class="category-overview">
               <div class="bar">
@@ -277,7 +266,6 @@ export const createMainElement = () => {
           <div class="main-score-data">
             <div class="category-heading">
               <p class="category-name">Environmental Quality</p>
-              <span>@</span>
             </div>
             <div class="category-overview">
               <div class="bar">
@@ -292,7 +280,6 @@ export const createMainElement = () => {
           <div class="main-score-data">
             <div class="category-heading">
               <p class="category-name">Environmental Quality</p>
-              <span>@</span>
             </div>
             <div class="category-overview">
               <div class="bar">
@@ -303,6 +290,7 @@ export const createMainElement = () => {
           </div>
           <div class="details"></div>
         </div>
+        
       </div>
   `;
   return element;
